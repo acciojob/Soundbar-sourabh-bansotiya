@@ -8,6 +8,18 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div id="buttons">
+        <button class="btn" onclick="playAudio('audio1.mp3')">applause</button>
+        <button class="btn" onclick="playAudio('audio2.mp3')">boo</button>
+        <button class="btn" onclick="playAudio('audio3.mp3')">gasp</button>
+        <button class="btn" onclick="playAudio('audio4.mp3')">tada</button>
+        <button class="btn" onclick="playAudio('audio5.mp3')">victory</button>
+		<button class="btn" onclick="playAudio('audio6.mp3')">wrong</button>
+        <button class="btn stop" onclick="stopAudio()">Stop</button>
+    </div>
+
+    <audio id="audioPlayer" controls></audio>
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
